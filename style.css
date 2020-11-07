@@ -1,0 +1,66 @@
+.row{
+    text-align:center;
+
+}
+
+.card{
+    display:inline-block;
+    width:120px;
+    height:120px;
+    background-color: #eee;
+    cursor:pointer;
+    background-size: cover;
+    border-radius: 6px;
+
+
+}
+.card.done{
+    cursor: default;
+    border: 1px solid rgb(255, 153, 0);
+}
+.card.done:hover{
+    cursor:default;
+    box-shadow: none;
+}
+.card:hover{
+    box-shadow:inset 0px 0px 0px 3px rgb(215, 215, 248);
+}
+
+
+
+.img1{
+    background-image: url("./imgs/20170129_140627.jpg");
+   
+}
+
+.img2{
+    background-image: url("./imgs/20170129_140651.jpg")
+}
+
+.img3{
+    background-image: url("./imgs/IMG_20180918_192722749_HDR.jpg")
+}
+
+.img4{
+    background-image: url("./imgs/IMG_20181231_221909237.jpg")
+}
+
+.img5{
+    background-image: url("./imgs/IMG_20190126_151221243_HDR.jpg")
+}
+
+.img6{
+    background-image: url("./imgs/IMG_20190126_154007869_HDR.jpg")
+}
+
+.img7{
+    background-image: url("./imgs/IMG_20190708_192532779.jpg")
+}
+
+.img8{
+    background-image: url("./imgs/IMG_20190816_183406238_HDR.jpg")
+}
+.color-hidden{
+    background-color:#eee;
+    background-image: none;
+}
